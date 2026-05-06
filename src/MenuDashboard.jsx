@@ -3,18 +3,18 @@ import { Home, ShoppingBag, Heart, Tag, Gift, LogOut, Search, User, Trash2, Plus
 import { Link } from 'react-router-dom';
 
 const menuItems = [
-  { id: 1, name: 'Cappuccino', desc: 'Smooth espresso with steamed milk', price: 3.49, category: 'Beverages', img: '/images/coffee.png' },
-  { id: 2, name: 'Veg Sandwich', desc: 'Grilled perfection with fresh veggies', price: 4.49, category: 'Sandwiches', img: '/images/sandwich.png' },
-  { id: 3, name: 'Maggi', desc: 'Classic masala maggi with perfection', price: 2.49, category: 'Maggi', img: '/images/maggi.png' },
-  { id: 4, name: 'Egg Maggi', desc: 'Masala maggi topped with egg', price: 2.99, category: 'Maggi', img: '/images/maggi.png' },
-  { id: 5, name: 'Chicken Sandwich', desc: 'Juicy chicken with fresh veggies', price: 5.49, category: 'Sandwiches', img: '/images/sandwich.png' },
-  { id: 6, name: 'Shawarma', desc: 'Spiced chicken shawarma with sauces', price: 5.99, category: 'Wraps', img: '/images/sandwich.png' }, 
-  { id: 7, name: 'Grilled Sandwich', desc: 'Grilled chicken with cheese & veggies', price: 5.49, category: 'Sandwiches', img: '/images/sandwich.png' },
-  { id: 8, name: 'French Fries', desc: 'Crispy fries with peri peri masala', price: 2.49, category: 'Snacks', img: '/images/maggi.png' },
-  { id: 9, name: 'Cold Coffee', desc: 'Chilled coffee with a creamy blend', price: 3.49, category: 'Beverages', img: '/images/coffee.png' },
-  { id: 10, name: 'Chocolate Shake', desc: 'Rich chocolate milkshake', price: 3.49, category: 'Beverages', img: '/images/dessert.png' },
-  { id: 11, name: 'Chicken Wrap', desc: 'Spicy chicken with veggies & sauce', price: 5.49, category: 'Wraps', img: '/images/sandwich.png' },
-  { id: 12, name: 'Chocolate Cake', desc: 'Rich & moist chocolate satisfaction', price: 3.49, category: 'Desserts', img: '/images/dessert.png' },
+  { id: 1, name: 'Cappuccino', desc: 'Smooth espresso with steamed milk', price: 3.49, category: 'Beverages', img: `${import.meta.env.BASE_URL}images/coffee.png` },
+  { id: 2, name: 'Veg Sandwich', desc: 'Grilled perfection with fresh veggies', price: 4.49, category: 'Sandwiches', img: `${import.meta.env.BASE_URL}images/sandwich.png` },
+  { id: 3, name: 'Maggi', desc: 'Classic masala maggi with perfection', price: 2.49, category: 'Maggi', img: `${import.meta.env.BASE_URL}images/maggi.png` },
+  { id: 4, name: 'Egg Maggi', desc: 'Masala maggi topped with egg', price: 2.99, category: 'Maggi', img: `${import.meta.env.BASE_URL}images/maggi.png` },
+  { id: 5, name: 'Chicken Sandwich', desc: 'Juicy chicken with fresh veggies', price: 5.49, category: 'Sandwiches', img: `${import.meta.env.BASE_URL}images/sandwich.png` },
+  { id: 6, name: 'Shawarma', desc: 'Spiced chicken shawarma with sauces', price: 5.99, category: 'Wraps', img: `${import.meta.env.BASE_URL}images/sandwich.png` }, 
+  { id: 7, name: 'Grilled Sandwich', desc: 'Grilled chicken with cheese & veggies', price: 5.49, category: 'Sandwiches', img: `${import.meta.env.BASE_URL}images/sandwich.png` },
+  { id: 8, name: 'French Fries', desc: 'Crispy fries with peri peri masala', price: 2.49, category: 'Snacks', img: `${import.meta.env.BASE_URL}images/maggi.png` },
+  { id: 9, name: 'Cold Coffee', desc: 'Chilled coffee with a creamy blend', price: 3.49, category: 'Beverages', img: `${import.meta.env.BASE_URL}images/coffee.png` },
+  { id: 10, name: 'Chocolate Shake', desc: 'Rich chocolate milkshake', price: 3.49, category: 'Beverages', img: `${import.meta.env.BASE_URL}images/dessert.png` },
+  { id: 11, name: 'Chicken Wrap', desc: 'Spicy chicken with veggies & sauce', price: 5.49, category: 'Wraps', img: `${import.meta.env.BASE_URL}images/sandwich.png` },
+  { id: 12, name: 'Chocolate Cake', desc: 'Rich & moist chocolate satisfaction', price: 3.49, category: 'Desserts', img: `${import.meta.env.BASE_URL}images/dessert.png` },
 ];
 
 const categories = ['All Items', 'Beverages', 'Sandwiches', 'Maggi', 'Wraps', 'Snacks', 'Desserts'];
