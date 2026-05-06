@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes scrolldown {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(200%); }
+  }
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c6a15b #1a0f0a;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a0f0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c6a15b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d6b98c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
