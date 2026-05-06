@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HeroVideo() {
   return (
-    <div className="relative w-full h-screen bg-[#1a0f0a] overflow-hidden sticky top-0 -z-10">
+    <div className="relative w-full h-screen bg-[#1a0f0a] overflow-hidden">
       {/* Fallback background */}
       <div className="absolute inset-0 bg-[#110a06]"></div>
       
