@@ -19,7 +19,7 @@ export default function HeroVideo() {
       </video>
 
       {/* Hero Content Overlay */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-[#d6b98c] z-10 pointer-events-none bg-black/30">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-[#d6b98c] z-10 pointer-events-none bg-black/10">
         <h1 className="text-5xl md:text-8xl font-bold uppercase tracking-[0.1em] text-[#f5e6c8] drop-shadow-2xl mb-4 opacity-0 animate-[fadeInUp_1s_ease-out_0.5s_forwards]">
           <span className="text-[#c6a15b]">Aurora</span> Blend
         </h1>
@@ -35,7 +35,7 @@ export default function HeroVideo() {
       </div>
       
       {/* Bottom Gradient Fade */}
-      <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-[#110a06] to-transparent z-10 pointer-events-none"></div>
+      <div className="absolute bottom-0 w-full h-20 bg-gradient-to-t from-[#110a06] to-transparent z-10 pointer-events-none"></div>
     </div>
   );
 }
