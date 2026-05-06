@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroVideo from './HeroVideo';
 import StoryLayout from './StoryLayout';
 import MenuDashboard from './MenuDashboard';
@@ -19,11 +19,11 @@ function LandingPage() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/menu" element={<MenuDashboard />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
