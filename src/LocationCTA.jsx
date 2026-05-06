@@ -67,7 +67,7 @@ export default function LocationCTA() {
           style={{ transformStyle: 'preserve-3d' }}
         >
           <img 
-            src="/images/splash-cup.png" 
+            src={`${import.meta.env.BASE_URL}images/splash-cup.png`}
             alt="Floating Coffee Cup"
             className="w-auto h-[80%] md:h-[110%] md:scale-110 lg:scale-125 object-contain drop-shadow-[0_20px_40px_rgba(198,161,91,0.4)]"
             onError={(e) => {

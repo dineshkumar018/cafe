@@ -77,7 +77,7 @@ export default function StoryLayout() {
         <div className="absolute top-0 right-0 w-full md:w-3/4 h-full z-0 opacity-80">
           <div 
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(/sequence/ezgif-frame-080.jpg)` }}
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}sequence/ezgif-frame-080.jpg)` }}
           />
           {/* Gradient fade to match the dark background on the left */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#110a06] via-[#110a06]/80 to-transparent" />
