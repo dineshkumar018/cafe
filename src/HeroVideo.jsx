@@ -13,8 +13,10 @@ export default function HeroVideo() {
         muted
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
-        src={`${import.meta.env.BASE_URL}hero-video.mp4`}
-      />
+      >
+        <source src={`${import.meta.env.BASE_URL}hero-video.mp4`} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       {/* Hero Content Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-[#d6b98c] z-10 pointer-events-none bg-black/30">
